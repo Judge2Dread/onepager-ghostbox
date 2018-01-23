@@ -1,0 +1,33 @@
+/*------------------------------------
+27. Integrated With
+------------------------------------*/
+.integrated-with-wrap{
+    text-align: center;
+    margin-bottom: -30px;
+}
+.integrated-with{
+    display: inline-block;
+    margin: 0 13px 30px;
+}
+
+/*** Intregrated with style 2 ***/
+.integrated-with-wrap.style-2{
+    margin-bottom: -50px;
+    .integrated-with{
+        height: 60px;
+        width: 210px;
+        position: relative;
+        margin: auto 30px 50px;
+        opacity: 0.22;
+        &:hover{
+            opacity: 1;
+        }
+        img{
+            max-width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

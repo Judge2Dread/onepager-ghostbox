@@ -1,0 +1,95 @@
+/*------------------------------------
+15. Fun facts
+------------------------------------*/
+.cps-counter-items{
+    zoom:1;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -30px;
+}
+.cps-counter-item{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    .cps-counter-icon{
+        line-height: 1;
+        font-size: 4.8rem;
+    }
+    .cps-fact-number{
+        font-family: $headingFont;
+        font-size: 3.2rem;
+        margin-bottom: 2px;
+    }
+    .cps-fact-name{
+        font-size: 2.2rem;
+        margin-bottom: 0;
+    }
+    &.style-2{
+        text-align: left;
+        .cps-counter-icon{
+            font-size: 3.5rem;
+            width: 35px;
+            margin-right: 15px;
+            float: left;
+            + .cps-counter-body{
+                width: calc(100% - 50px);
+            }
+        }
+        .cps-counter-body{
+            width: 100%;
+            float: left;
+            color: $baseFontColor;
+            .cps-fact-number{
+                font-size: 1.8rem;
+                margin-top: -3px;
+                margin-bottom: 0;
+            }
+            .cps-fact-name{
+                font-size: 1.8rem;
+                font-family: $headingFont;
+                font-weight: 600;
+                margin-top: -5px;
+            }
+        }
+    }
+}
+
+/*** Fact style 2 ***/
+.fact-style-2{
+    padding: 90px 0;
+    color: #ffffff;
+    .cps-counter-item {
+        .cps-counter-icon{
+            font-size: 3.6rem;
+        }
+        .cps-fact-number{
+            font-size: 3.6rem;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        .cps-fact-name{
+            font-size: 1.8rem;
+        }
+    }
+}
+
+/*** Mini Fact ***/
+.mini-fact-wrap{
+    margin-top: 45px;
+}
+.mini-fact{
+    text-align: center;
+    .mini-fact-count{
+        font-size: 3.6rem;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+.mini-fact-wrap.style-2{
+    .mini-fact{
+        .mini-fact-count{
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
+}

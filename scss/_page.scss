@@ -1,0 +1,241 @@
+/*------------------------------------
+33. Page
+------------------------------------*/
+.page-header{
+    background-image: url(../images/bg/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 170px 0 90px;
+    border: none;
+}
+.page-title{
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin: 0;
+}
+.breadcrumb{
+    background-color: transparent;
+    padding: 0;
+    margin: 15px 0 0;
+    border-radius: 0;
+    li{
+        color: $baseFontColor;
+        a{
+            color: $baseFontColor;
+        }
+        &.active{
+            color: $baseFontColor;
+        }
+        + li{
+            &:before{
+                content: "-";
+                display: inline-block;
+                padding: 0 3px 0 1px;
+                color: $baseFontColor;
+            }
+        }
+    }
+}
+
+/*** Page header 2 ***/
+.page-header.style-2{
+    text-align: center;
+    color: #ffffff;
+    .breadcrumb{
+        li{
+            color: #ffffff;
+            a{
+                color: #ffffff;
+            }
+            &.active{
+                color: #ffffff;
+            }
+            + li{
+                &:before{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+/*** Page header 3 ***/
+.page-header.style-3{
+    background-image: url(../images/banner/8.jpg);
+    position: relative;
+    color: #ffffff;
+    &:before{
+        content: "";
+        background-color: rgba(38, 38, 38, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .container{
+        z-index: 2;
+        position: relative;
+    }
+    .breadcrumb{
+        li{
+            color: #ffffff;
+            a{
+                color: #ffffff;
+            }
+            &.active{
+                color: #ffffff;
+            }
+            + li{
+                &:before{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+/*** Page header 4 ***/
+.page-header.style-4{
+    background-image: url(../images/banner/9.jpg);
+    position: relative;
+    color: #ffffff;
+    &:before{
+        content: "";
+        background-color: rgba(38, 38, 38, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .container{
+        z-index: 2;
+        position: relative;
+    }
+    .breadcrumb{
+        li{
+            color: #ffffff;
+            a{
+                color: #ffffff;
+            }
+            &.active{
+                color: #ffffff;
+            }
+            + li{
+                &:before{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+/*** Page header 5 ***/
+.page-header.style-5{
+    background-color: #f7f7f7;
+    background-image: none;
+    text-align: center;
+}
+
+/*** Page header 6 ***/
+.page-header.style-6{
+    background-image: url(../images/banner/10.jpg);
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    &:before{
+        content: "";
+        background-color: rgba(38, 38, 38, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .container{
+        z-index: 2;
+        position: relative;
+    }
+    .breadcrumb{
+        li{
+            color: #ffffff;
+            a{
+                color: #ffffff;
+            }
+            &.active{
+                color: #ffffff;
+            }
+            + li{
+                &:before{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+/*** Page header 7 ***/
+.page-header.style-7{
+    background-color: #8b57d9;
+    background-image: none;
+    text-align: center;
+    color: #ffffff;
+    .breadcrumb{
+        li{
+            color: #ffffff;
+            a{
+                color: #ffffff;
+            }
+            &.active{
+                color: #ffffff;
+            }
+            + li{
+                &:before{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+
+/*** Page header 8 ***/
+.page-header.style-8{
+    position: relative;
+    overflow: hidden;
+    background-image: none;
+    .cps-bg-round-1{
+        top: 50px;
+    }
+    .cps-bg-round-2{
+        top: 0;
+    }
+}
+
+/*** Page header 9 ***/
+.page-header.style-9{
+    background-image: none;
+    color: #ffffff;
+    text-align: center;
+    .breadcrumb{
+        li{
+            color: #ffffff;
+            a{
+                color: #ffffff;
+            }
+            &.active{
+                color: #ffffff;
+            }
+            + li{
+                &:before{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

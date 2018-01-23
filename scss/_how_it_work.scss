@@ -1,0 +1,38 @@
+/*------------------------------------
+23. How it works
+------------------------------------*/
+
+.how-it-works-video {
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.plyr {
+    .plyr__play-large {
+        background-color: transparent;
+        padding: 12px;
+        border-width: 6px;
+        svg {
+            display: none;
+        }
+    }
+    input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+    select,
+    textarea {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+.hiw-video-style-2{
+    .cps-overlay{
+        padding: 210px 0;
+    }
+    .cps-section-header{
+        .cps-section-title{
+            font-size: 4.8rem;
+            font-weight: 400;
+        }
+    }
+}

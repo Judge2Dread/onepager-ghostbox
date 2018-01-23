@@ -1,0 +1,17 @@
+/*------------------------------------
+20. Connection
+------------------------------------*/
+.connection-content{
+    margin-left: 35px;
+    .icon{
+        font-size: 2.5rem;
+        color: #ffffff;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        line-height: 60px;
+        text-align: center;
+        margin: 9px 9px 33px;
+        animation: connection 1s infinite;
+    }
+}

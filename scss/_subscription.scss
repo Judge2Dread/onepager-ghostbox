@@ -1,0 +1,148 @@
+/*------------------------------------
+30. Subscription
+------------------------------------*/
+
+.cps-subscription {
+    width: 100%;
+    max-width: 370px;
+    margin: 0 auto;
+    position: relative;
+    input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+    select,
+    textarea {
+        line-height: 4.8rem;
+        border-radius: 25px;
+    }
+    [type=submit] {
+        background-color: transparent;
+        border: 1px solid transparent;
+        line-height: 4.8rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 25px;
+        .cps-theme-bg &, .cps-gradient-bg &{
+            color: #ffffff;
+        }
+    }
+}
+
+
+/*** Subscription Style 2 ***/
+
+.subscription-style-2 {
+    border-bottom: 1px solid rgba(#262626, 0.11);
+    padding: 30px 0;
+    .subscription-social {
+        margin-top: 6px;
+        label {
+            font-weight: 400;
+            margin: 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        a {
+            margin: 0 5px;
+            display: inline-block;
+            vertical-align: middle;
+            color: $baseFontColor;
+        }
+    }
+    label {
+        vertical-align: middle;
+        margin: 0 20px 0 0;
+    }
+    .cps-subscription {
+        display: inline-block;
+        width: auto;
+        input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+        select,
+        textarea {
+            border: 1px solid rgba(#262626, 0.2);
+            margin-bottom: 0;
+            line-height: 3.8rem;
+            width: 270px;
+        }
+        [type=submit] {
+            color: $baseFontColor;
+            line-height: 3.8rem;
+        }
+    }
+}
+
+
+/*** Subscription Style 3 ***/
+
+.subscription-style-3 {
+    .subscription-container {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        border-bottom-width: 3px;
+        border-bottom-style: solid;
+        padding: 56px 60px;
+    }
+    .subscription-title{
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin: 0;
+    }
+    .subscription-text{
+        margin-top: 4px;
+        margin-bottom: 0;
+    }
+    .cps-subscription {
+        max-width: none;
+        margin-top: 8px;
+        input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+        select,
+        textarea {
+            border: 1px solid rgba(#262626, 0.11);
+            margin-bottom: 0;
+            line-height: 4.2rem;
+            width: calc(100% - 160px);
+            float: left;
+            border-radius: 3px;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+        [type=submit] {
+            color: #ffffff;
+            line-height: 4.2rem;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 3px;
+            width: 150px;
+            text-align: center;
+            float: left;
+        }
+    }
+}
+
+/*** Subscription Style 4 ***/
+.subscription-style-4{
+    .cps-subscription{
+        max-width: 490px;
+        width: 100%;
+        input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+        select,
+        textarea{
+            line-height: 42px;
+            margin-right: 20px;
+            float: left;
+            width: calc(100% - 144px);
+        }
+        [type=submit]{
+            font-family: $headingFont;
+            color: #ffffff;
+            border: 1px solid transparent;
+            line-height: 42px;
+            border-radius: 21px;
+            width: 124px;
+            text-align: center;
+            float: left;
+        }
+    }
+    .big-mock-padding{
+        margin-bottom: 0;
+    }
+}

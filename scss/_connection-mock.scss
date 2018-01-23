@@ -1,0 +1,78 @@
+/*------------------------------------
+19. Connection Mock
+------------------------------------*/
+.sm-logo{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    position: relative;
+    border-radius: 60px;
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.connection-mock{
+    padding: 145px 0;
+    .logo-mock{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        &:before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 272px;
+            height: 272px;
+            border-radius: 50%;
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 410px;
+            height: 410px;
+            border-radius: 50%;
+        }
+        + .connection-logoes{
+            margin-right: -372px;
+            margin-left: auto;
+            left: auto;
+            right: 50%;
+            transform: translate(50%, -50%);
+            .connection-logo-item{
+                margin-left: 30px;
+                margin-right: 0;
+            }
+        }
+    }
+    .connection-logoes{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: -352px;
+        padding-top: 30px;
+        width: 272px;
+        .connection-logo-item{
+            color: #ffffff;
+            width: 106px;
+            padding: 27px 10px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            float: left;
+            border-radius: 3px;
+            .fa{
+                display: block;
+                font-size: 2.5rem;
+            }
+        }
+    }
+}

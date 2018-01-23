@@ -1,0 +1,63 @@
+/*------------------------------------
+25. Blog
+------------------------------------*/
+.cps-posts{
+    margin-bottom: -52px;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+.cps-post{
+    margin-bottom: 52px;
+    .cps-post-thumb{
+        display: block;
+        overflow: hidden;
+        border-radius: 3px;
+    }
+    .cps-post-content{
+        margin-top: 25px;
+    }
+    .cps-post-title{
+        margin-top: 0;
+        font-size: 1.8rem;
+        margin-bottom: 2px;
+        color: $baseFontColor;
+        a{
+            color: inherit;
+        }
+    }
+    .cps-post-date{
+        font-family: $headingFont;
+        font-size: 1.2rem;
+        margin-bottom: 6px;
+    }
+    .cps-post-excerpt{
+        margin: 0;
+    }
+    .cps-post-readmore{
+        font-family: $headingFont;
+        font-weight: 600;
+        display: inline-block;
+        margin-top: 15px;
+    }
+    &.style-2{
+        .cps-post-thumb{
+            border-radius: 0;
+        }
+        .cps-post-title{
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+    }
+    &.style-3{
+        .cps-post-thumb{
+            border-radius: 0;
+        }
+        .cps-post-title{
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+    }
+}

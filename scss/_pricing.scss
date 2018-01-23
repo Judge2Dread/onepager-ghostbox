@@ -1,0 +1,186 @@
+/*------------------------------------
+13. Pricing
+------------------------------------*/
+
+.cps-packages {
+    margin-bottom: -30px;
+    float: left;
+    width: 100%;
+}
+
+.cps-package {
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    .cps-package-header {
+        border-width: 10px 0 1px 0;
+        border-style: solid;
+        border-image-slice: 1;
+        text-align: center;
+        padding: 24px 30px;
+        .cps-pack-name {
+            margin: 0;
+            color: $baseFontColor;
+            .cps-gradient-bg &, .cps-theme-bg &{
+                color: $baseFontColor;
+            } 
+        }
+    }
+    .cps-pack-price {
+        text-align: center;
+        padding: 0 30px;
+        font-size: 4.6rem;
+        font-weight: 900;
+        font-family: $headingFont;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        .currency {
+            font-weight: 400;
+            font-size: 2.2rem;
+            color: #262626;
+        }
+        .pack-duration {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #262626;
+        }
+    }
+    .cps-pack-feature-list {
+        list-style: none;
+        margin: 0;
+        padding: 0 30px;
+        text-align: center;
+        line-height: 3rem;
+        color: $baseFontColor;
+        .cps-theme-bg &, .cps-gradient-bg &{
+            color: $baseFontColor;
+        } 
+    }
+    .cps-pack-footer {
+        padding: 30px;
+        text-align: center;
+    }
+    &.style-2 {
+        .cps-package-header {
+            border-bottom-width: 0;
+            padding: 27px 0 0;
+            .cps-pack-name {
+                font-size: 1.4rem;
+                font-family: $baseFont;
+                font-weight: 400;
+                border-bottom: 1px solid #e7e7e7;
+                padding: 0 30px 27px;
+            }
+        }
+        .cps-pack-price {
+            font-weight: 700;
+            font-size: 3.6rem;
+            color: $baseFontColor;
+            margin-top: 40px;
+            margin-bottom: 11px;
+        }
+        .cps-pack-footer {
+            padding: 50px 30px;
+        }
+    }
+    &.style-3 {
+        .cps-package-header {
+            border-bottom-width: 0;
+            padding: 27px 0 0;
+            border-image: none;
+            .cps-pack-name {
+                font-size: 1.4rem;
+                font-family: $baseFont;
+                font-weight: 400;
+                border-bottom: 1px solid #e7e7e7;
+                padding: 0 30px 27px;
+            }
+        }
+        .cps-pack-price {
+            font-weight: 700;
+            font-size: 3.6rem;
+            color: $baseFontColor;
+            margin-top: 40px;
+            margin-bottom: 11px;
+        }
+        .cps-pack-footer {
+            padding: 50px 30px;
+        }
+    }
+    &.style-4 {
+        border-radius: 3px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        .cps-package-header {
+            border-top: none;
+            border-bottom-width: 0;
+            padding: 27px 0 0;
+            border-image: none;
+            .cps-pack-name {
+                font-size: 1.4rem;
+                font-family: $baseFont;
+                font-weight: 400;
+                border-bottom: 1px solid #e7e7e7;
+                padding: 0 30px 27px;
+            }
+        }
+        .cps-pack-price {
+            font-weight: 700;
+            font-size: 3.6rem;
+            color: $baseFontColor;
+            margin-top: 40px;
+            margin-bottom: 11px;
+        }
+        .cps-pack-footer {
+            padding: 50px 30px;
+        }
+    }
+    
+    &.style-5 {
+        border-radius: 3px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        background-image: linear-gradient(to right, #ffffff, #ffffff);
+        &.special{
+            color: #ffffff;
+            .cps-package-header{
+                .cps-pack-name{
+                    color: #ffffff;
+                }
+            }
+            .cps-pack-price{
+                background-image: linear-gradient(to right, #fff, #fff);
+            }
+            .cps-pack-feature-list{
+                color: #ffffff;
+            }
+            .btn, .btn:focus, .btn:active, .btn:visited{
+                background-color: #fff !important;
+                background-image: none !important;
+            }
+        }
+        .cps-package-header {
+            border-top: none;
+            border-bottom-width: 0;
+            padding: 27px 0 0;
+            border-image: none;
+            .cps-pack-name {
+                font-size: 1.4rem;
+                font-family: $baseFont;
+                font-weight: 400;
+                border-bottom: 1px solid #e7e7e7;
+                padding: 0 30px 27px;
+            }
+        }
+        .cps-pack-price {
+            font-weight: 700;
+            font-size: 3.6rem;
+            color: $baseFontColor;
+            margin-top: 40px;
+            margin-bottom: 11px;
+        }
+        .cps-pack-footer {
+            padding: 50px 30px;
+        }
+    }
+}

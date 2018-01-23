@@ -1,0 +1,27 @@
+/*------------------------------------
+18. Client Logoes
+------------------------------------*/
+.cps-client-logo-section {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+}
+.cps-client-logoes{
+    zoom: 1;
+    position: relative;
+    overflow: hidden;
+}
+.cps-client-logo{
+    display: block;
+    position: relative;
+    height: 120px;
+    opacity: 0.22;
+    &:hover{
+        opacity: 1;
+    }
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

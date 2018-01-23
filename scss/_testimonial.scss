@@ -1,0 +1,190 @@
+/*------------------------------------
+17. Testimonial
+------------------------------------*/
+
+.cps-testimonials-wrap {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.testimonial-carousel {
+    .owl-prev,
+    .owl-next {
+        display: none;
+    }
+}
+
+.cps-testimonial-item {
+    text-align: center;
+    color: #ffffff;
+    blockquote {
+        font-family: $headingFont;
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+        border: none;
+        margin: 0;
+        padding: 0;
+        font-style: italic;
+        &:before {
+            content: "\e643";
+            font-family: 'themify';
+            font-size: 4.8rem;
+            line-height: 1;
+            display: block;
+            font-style: normal;
+            margin-bottom: 10px;
+        }
+    }
+    .cps-reviewer-name {
+        font-size: 2rem;
+        font-weight: 900;
+        margin-top: 35px;
+        margin-bottom: 0;
+        font-style: italic;
+    }
+}
+
+
+/*** Testimonial Style 2  ***/
+
+.cps-testimonial-container {
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    padding: 96px 40px;
+}
+
+.cps-testimonials-wrap.style-2 {
+    max-width: 370px;
+    width: 100%;
+    margin-left: 0;
+    .testimonial-carousel {
+        .owl-wrapper-outer {
+            background-color: #ffffff;
+            border-radius: 3px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+        .owl-prev,
+        .owl-next {
+            display: inline-block;
+            font-size: 1.8rem;
+            color: #fff;
+            border-radius: 3px;
+            line-height: 35px;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            margin-top: 10px;
+            background-color: rgba(#262626, 0.55);
+        }
+        .owl-next {
+            margin-left: 5px;
+        }
+    }
+    .cps-testimonial-item {
+        color: #111111;
+        padding: 35px 40px;
+        blockquote {
+            font-family: $baseFont;
+            font-style: italic;
+            font-size: 1.4rem;
+            line-height: 2.6rem;
+            &:before {
+                content: "\e67e";
+                font-family: "themify";
+                font-size: 3.5rem;
+                margin-bottom: 30px;
+            }
+        }
+        .cps-reviewer-name {
+            font-size: 1.8rem;
+            font-style: normal;
+            margin-top: 25px;
+        }
+        .cps-reviewer-position {
+            font-size: 1.1rem;
+            font-family: $headingFont;
+            margin-bottom: 0;
+            margin-top: 8px;
+        }
+        .cps-reviewer-company {
+            font-size: 1.1rem;
+            font-family: $headingFont;
+            margin-bottom: 0;
+            margin-top: -3px;
+        }
+    }
+}
+
+
+/*** Testimonial Style 3  ***/
+
+.cps-testimonials-wrap {
+    .style-3 & {
+        max-width: none;
+        margin: 0 -15px -10px;
+        .cps-testimonial-item {
+            padding: 60px 30px 35px;
+            color: $baseFontColor;
+            margin: 40px 15px 10px;
+            border-radius: 3px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            position: relative;
+            .cps-commenter-pic {
+                overflow: hidden;
+                border-radius: 50%;
+                width: 80px;
+                height: 80px;
+                position: absolute;
+                top: -40px;
+                left: 50%;
+                margin-left: -40px;
+            }
+            blockquote {
+                font-size: 1.4rem;
+                font-weight: 400;
+                font-family: $baseFont;
+                font-style: italic;
+                line-height: 2.6rem;
+                &:before {
+                    content: "\e67e";
+                    font-family: "themify";
+                    font-size: 2.5rem;
+                }
+            }
+            .cps-reviewer-name {
+                font-size: 1.8rem;
+                font-style: normal;
+                margin-top: 25px;
+            }
+            .cps-reviewer-position {
+                font-size: 1.1rem;
+                font-family: $headingFont;
+                margin-bottom: 0;
+                margin-top: 8px;
+            }
+            .cps-reviewer-company {
+                font-size: 1.1rem;
+                font-family: $headingFont;
+                margin-bottom: 0;
+                margin-top: -3px;
+            }
+        }
+    }
+}
+
+/*** Featured Quote ***/
+.featured-quote{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 830px;
+    blockquote{
+        font-size: 1.8rem;
+        line-height: 3rem;
+        border: none;
+        padding: 0;
+    }
+}

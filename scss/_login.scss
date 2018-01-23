@@ -1,0 +1,61 @@
+/*------------------------------------
+31. Login / Registration
+------------------------------------*/
+.account-form{
+    input:not([type=submit]):not([type=radio]):not([type=checkbox]), select, textarea {
+        padding: 5px 30px;
+        border-radius: 3px;
+        border-color: rgba($baseFontColor, 0.33);
+        margin-bottom: 20px;
+    }
+    label{
+        margin: 0;
+        font-weight: 400;
+        input{
+            vertical-align: middle;
+            margin: 0 10px 0 0 !important;
+        }
+    }
+    .gender-inputs{
+        label{
+            margin-left: 10px;
+            input{
+                margin-right: 0 !important;
+            }
+        }
+    }
+    [type=submit]{
+        width: 100%;
+        display: block;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        line-height: 4.6rem;
+        margin-top: 20px;
+    }
+}
+.or-section{
+    margin: 30px 0;
+}
+.login-with-social{
+    a{
+        display: block;
+        width: 100%;
+        border-radius: 3px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 4.6rem;
+        + a{
+            margin-top: 10px;
+        }
+        &.gplus-login{
+            background-color: #ea4335;
+        }
+        &.facebook-login{
+            background-color: #3b5998;
+        }
+        &.twitter-login{
+            background-color: #1da1f2;
+        }
+    }
+}

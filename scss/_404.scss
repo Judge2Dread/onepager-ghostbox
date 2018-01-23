@@ -1,0 +1,43 @@
+/*------------------------------------
+37. 404
+------------------------------------*/
+.cps-404-content{
+    max-width: 470px;
+    margin: 0 auto;
+    .cps-404-title{
+        margin: 0;
+        font-size: 4.8rem;
+        font-weight: 400;
+    }
+    .cps-404-text{
+        margin-top: 12px;
+    }
+    
+    .searchform-404 {
+        border-radius: 3px;
+        overflow: hidden;
+        margin-top: 25px;
+    }
+    input:not([type=submit]):not([type=radio]):not([type=checkbox]), select, textarea{
+        padding: 5px 30px;
+        border-radius: 3px 0 0 3px;
+        width: calc(100% - 120px);
+        float: left;
+        margin: 0;
+    }
+    [type=submit]{
+        padding: 5px 0;
+        text-align: center;
+        width: 120px;
+        border-style: solid;
+        border-width: 1px;
+        border-image-slice: 1;
+        color: #ffffff;
+        line-height: 3.4rem;
+    }
+    .btn-to-home{
+        margin-top: 60px;
+        padding: 5px 40px;
+        border-radius: 25px;
+    }
+}

@@ -1,0 +1,83 @@
+/*------------------------------------
+39. Miscelleneous
+------------------------------------*/
+
+.app-landing-extra-feature-1 {
+    overflow: hidden;
+    .cps-bg-round-1 {
+        right: auto;
+        left: -283px;
+    }
+    .cps-bg-round-2 {
+        right: auto;
+        left: -394px;
+    }
+}
+
+.top-120p {
+    margin-top: 120px;
+}
+
+.cps-app-testimonial-1 {
+    overflow: hidden;
+    .cps-bg-round-1 {
+        right: auto;
+        left: -283px;
+    }
+    .cps-bg-round-2 {
+        right: auto;
+        left: -394px;
+    }
+    .cps-bg-round-3 {
+        width: 1016px;
+        height: 1016px;
+        right: -459px;
+        top: -577px;
+    }
+    .cps-bg-round-4 {
+        width: 1016px;
+        height: 1016px;
+        right: -558px;
+        top: -441px;
+    }
+}
+
+.cps-curved-bg-2 {
+    background-image: url(../images/bg/curve-4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url(../images/bg/curve-5.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        opacity: 0.9;
+    }
+}
+
+/*** Double Mock ***/
+.double-mock{
+    position: relative;
+    display: inline-block;
+    .front-mock{
+        position: relative;
+        z-index: 2;
+    }
+    .back-mock{
+        position: absolute;
+        bottom: 0;
+        right: 128px;
+        z-index: 1;
+    }
+}
+.ticksy-cta{
+    min-height: 1024px;
+}

@@ -1,0 +1,15 @@
+/*------------------------------------
+11. Video Section
+------------------------------------*/
+.cps-video-section{
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    .fullscreen-video-wrap{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+    }
+}

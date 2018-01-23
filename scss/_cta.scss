@@ -1,0 +1,128 @@
+/*------------------------------------
+26. Call to action
+------------------------------------*/
+
+.cps-cta {
+    padding: 72px 0;
+    &.cps-bottom-0 {
+        padding-bottom: 0;
+    }
+    .cps-cta-title {
+        font-size: 3.6rem;
+        margin-top: 0;
+        margin-bottom: 15px;
+        &.gradient-color {
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
+    .cps-cta-btn {
+        margin-top: 25px;
+    }
+    &.style-2 {
+        &.cps-bottom-0 {
+            padding-bottom: 0;
+        }
+        .cps-cta-title {
+            font-size: 2.2rem;
+            font-weight: 500;
+            span {
+                font-weight: 600;
+            }
+        }
+        .button-group {
+            margin-top: 30px;
+            .btn {
+                padding: 0 40px;
+                min-width: 160px;
+                text-align: center;
+            }
+        }
+        .link-group {
+            margin-top: 22px;
+        }
+    }
+    &.style-3 {
+        &.cps-bottom-0 {
+            padding-bottom: 0;
+        }
+        padding: 115px 0;
+        .cps-cta-title {
+            font-size: 3.6rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .cps-cta-text {
+            font-size: 1.8rem;
+            font-family: $headingFont;
+            margin-bottom: 35px;
+            a {
+                text-decoration: underline;
+                color: $baseFontColor;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+        .button-group {
+            margin-top: 30px;
+            .btn {
+                padding: 0 40px;
+                min-width: 160px;
+                text-align: center;
+            }
+        }
+        .link-group {
+            margin-top: 22px;
+        }
+    }
+    &.style-4 {
+        &.cps-bottom-0 {
+            padding-bottom: 0;
+        }
+        padding: 85px 0;
+        .cps-cta-title {
+            font-size: 3.6rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .cps-cta-text {
+            font-size: 1.4rem;
+            font-family: $headingFont;
+            margin-bottom: 35px;
+            a {
+                text-decoration: underline;
+                color: $baseFontColor;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+        .button-group {
+            margin-top: 30px;
+            .btn {
+                padding: 0 40px;
+                min-width: 160px;
+                text-align: center;
+            }
+        }
+        .link-group {
+            margin-top: 22px;
+        }
+        .cps-cta-download {
+            a {
+                +a {
+                    margin-left: 26px;
+                }
+            }
+        }
+    }
+    &.pos-absolute {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(#262626, 0.6);
+        color: #ffffff;
+    }
+}

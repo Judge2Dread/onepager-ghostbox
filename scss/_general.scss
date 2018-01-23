@@ -1,0 +1,267 @@
+/*------------------------------------
+1. General
+------------------------------------*/
+
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: $baseFont;
+    font-size: 1.4rem;
+    color: $baseFontColor;
+    line-height: 1.857143;
+}
+
+p {
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+h1,
+.h1 {
+    font-size: 6rem;
+}
+
+h2,
+.h2 {
+    font-size: 4.8rem;
+}
+
+h3,
+.h3 {
+    font-size: 3.6rem;
+}
+
+h4,
+.h4 {
+    font-size: 2.4rem;
+}
+
+h5,
+.h5 {
+    font-size: 1.8rem;
+}
+
+h6,
+.h6 {
+    font-size: 1.2rem;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    line-height: 1.208333;
+    font-weight: 600;
+    font-family: $headingFont;
+}
+
+a {
+    transition: all 0.3s ease;
+    &:focus,
+    &:visited {
+        outline: none;
+        text-decoration: none;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.cps-section {
+    position: relative;
+}
+
+.cps-section-padding {
+    padding: 120px 0;
+    &.cps-bottom-0 {
+        padding-bottom: 0;
+    }
+}
+
+.cps-section-header {
+    margin-bottom: 50px;
+    &.cps-bottom-0{
+        margin-bottom: 0;
+    }
+    .cps-section-title {
+        margin: 0;
+        font-size: 3.6rem;
+        line-height: 4.9rem;
+        font-weight: 500;
+        span {
+            font-weight: 900;
+        }
+    }
+    .cps-section-text {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .cps-section-subtitle{
+        font-size: 2.2rem;
+        margin: 0;
+        font-weight: 400;
+        span{
+            font-weight: 900;
+        }
+    }
+    &.style-2{
+        &.text-left{
+            margin-top: 80px;
+            margin-bottom: 20px;
+        }
+        .cps-section-title {
+            font-size: 4.8rem;
+            line-height: 5rem;
+        }
+        .cps-section-text{
+            margin-top: 25px;
+        }
+    }
+    &.style-3{
+        margin-top: 100px;
+        .cps-section-text{
+            font-size: 1.8rem;
+            opacity: 0.7;
+            line-height: 3rem;
+            margin-top: 22px;
+        }
+    }
+}
+
+.cps-sub-section {
+    & + &{
+        margin-top: 80px;
+    }
+}
+.big-mock-padding{
+    margin: 25px 0;
+    img{
+        display: inline-block;
+        margin: 0 auto;
+    }
+    &.cps-bottom-0{
+        margin-bottom: 0;
+    }
+}
+
+.cps-subsection-title {
+    font-size: 2.2rem;
+    margin-top: 55px;
+    margin-bottom: 17px;
+}
+.cps-subsection-text{
+    margin: 0;
+}
+.cps-theme-bg {
+    color: #ffffff;
+}
+
+.cps-gray-bg {
+    background-color: #f7f7f7;
+}
+
+.owl-prev,
+.owl-next {
+    transition: all 0.3s ease;
+}
+
+.features-side-img {
+    display: inline-block;
+}
+.cps-gradient-round{
+    background-image: url(../images/bg/gradient-round-bg.svg);
+    background-position: center bottom;
+    background-size: cover;
+    color: #ffffff;
+}
+.cps-curve-bg-1{
+    background-image: url(../images/bg/curve-1.svg);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cps-curve-bg-2{
+    background-image: url(../images/bg/curve-2.svg);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 240px;
+}
+.cps-gradient-bg{
+    color: #ffffff;
+}
+
+.cps-bg-round-1{
+    background-image: url(../images/bg/round-1.svg);
+    position: absolute;
+    width: 1016px;
+    height: 1016px;
+    top: 276px;
+    right: -283px;
+}
+
+.cps-bg-round-2{
+    background-image: url(../images/bg/round-2.svg);
+    position: absolute;
+    width: 1016px;
+    height: 1016px;
+    top: 138px;
+    right: -394px;
+    opacity: 0.55;
+}
+.cps-bg-round-4{
+    background-image: url(../images/bg/round-2.svg);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width: 672px;
+    height: 672px;
+    top: 344px;
+    right: -547px;
+    opacity: 0.55;
+}
+
+.cps-bg-round-3{
+    background-image: url(../images/bg/round-1.svg);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width: 672px;
+    height: 672px;
+    top: -135px;
+    right: -509px;
+}
+
+/*** Form and inputs ***/
+
+form {
+    position: relative;
+}
+
+input:not([type=submit]),
+input:not([type=radio]),
+input:not([type=checkbox]),
+textarea,
+select {}
+
+input,
+textarea,
+select,
+button {
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}

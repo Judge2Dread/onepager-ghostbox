@@ -1,0 +1,47 @@
+/*------------------------------------
+6. About
+------------------------------------*/
+.cps-about-img{
+    img{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 auto;
+        float: none;
+    }
+}
+.cps-progress-group{
+    zoom: 1;
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+.cps-progress-item{
+    margin-bottom: 20px;
+    .cps-progress-on{
+        font-family: $headingFont;
+        color: #000;
+        margin-bottom: 5px;
+    }
+    .progress {
+        height: 10px;
+        margin-bottom: 0;
+        border-radius: 5px;
+        box-shadow: none;
+        overflow: visible;
+    }
+    .progress-bar{
+        border-radius: 5px;
+        box-shadow: none;
+        position: relative;
+    }
+    .cps-progress-to{
+        position: absolute;
+        top: -28px;
+        margin: 0;
+        right: -8px;
+        font-family: $headingFont;
+        color: #000000;
+        font-size: 1.4rem;
+    }
+}

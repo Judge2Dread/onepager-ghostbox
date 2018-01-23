@@ -1,0 +1,88 @@
+/*------------------------------------
+5. Image Background
+------------------------------------*/
+.cps-image-bg-1{
+    background-image: url(../images/bg/1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    .cps-overlay{
+        background-color: rgba(#262626, 0.25);
+    }
+}
+.cps-image-bg-2{
+    background-image: url(../images/bg/2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    .cps-overlay{
+        background-color: rgba(#262626, 0.25);
+    }
+}
+.cps-image-bg-3{
+    background-image: url(../images/bg/3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cps-image-bg-4{
+    background-image: url(../images/bg/4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.cps-image-bg-5{
+    background-image: url(../images/bg/5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.cps-image-bg-6{
+    background-image: url(../images/bg/6.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.cps-image-bg-7{
+    background-image: url(../images/bg/7.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.group-image{
+    position: relative;
+    height: 370px;
+    overflow: hidden;
+    padding-top: 35px;
+    .group-front-img{
+        position: absolute;
+        top: 35px;
+        left: 50%;
+        width: 594px;
+        margin-left: -297px;
+        z-index: 2;
+        box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.25);
+    }
+    .group-back-img-1{
+        position: absolute;
+        top: 105px;
+        left: 22px;
+        width: 590px;
+        z-index: 1;
+        box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.25);
+    }
+    .group-back-img-2{
+        position: absolute;
+        top: 105px;
+        right: 22px;
+        width: 590px;
+        z-index: 1;
+        box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.25);
+    }
+}

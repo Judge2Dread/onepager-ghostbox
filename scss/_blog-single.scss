@@ -1,0 +1,128 @@
+/*------------------------------------
+35. Blog Single
+------------------------------------*/
+.post-single{
+    .post-thumb{
+        border-radius: 3px;
+        overflow: hidden;
+    }
+    .post-metas{
+        font-size: 1.2rem;
+        font-family: $headingFont;
+        margin-top: 15px;
+        margin-bottom: 0;
+        span{
+            + span{
+                margin-left: 45px;
+            }
+        }
+        a{
+            color: inherit;
+        }
+    }
+    .post-entry{
+        margin-top: 25px;
+        p{
+            margin-bottom: 30px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .post-share{
+        color: #ffffff;
+        margin-top: 40px;
+        padding: 14px 40px;
+        border-radius: 3px;
+        a{
+            color: inherit;
+            font-size: 1.8rem;
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0 10px;
+        }
+        label{
+            font-family: $baseFont;
+            font-weight: 400;
+            font-size: 1.8rem;
+            margin: 0;
+            vertical-align: middle;
+        }
+    }
+}
+
+
+/*** Given Comment ***/
+.comments-section{
+    margin-top: 56px;
+    .comments-title{
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 54px;
+    }
+    .comment-list{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        &.child-comments{
+            padding-left: 60px;
+            .comment{
+                margin-top: 48px;
+            }
+        }
+    }
+    .comment{
+        + .comment{
+            margin-top: 48px;
+        }
+    }
+    .commenter-thumb{
+        width: 70px;
+        border-radius: 35px;
+        overflow: hidden;
+        margin-right: 30px;
+        float: left;
+    }
+    .comment-body{
+        float: left;
+        width: calc(100% - 100px);
+    }
+    .comment-title{
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-top: -3px;
+        .comment-date{
+            font-weight: 400;
+        }
+    }
+    .comment-reply{
+        float: right;
+        color: $baseFontColor;
+    }
+}
+
+/*** Comment Form ***/
+.give-your-reply{
+    margin-top: 56px;
+    .commentform-header{
+        margin-bottom: 22px;
+        h4{
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-top: 0;
+        }
+    }
+    .comment-form{
+        input:not([type=submit]):not([type=radio]):not([type=checkbox]), textarea, select{
+            border-radius: 3px;
+            border: 1px solid rgba($baseFontColor, 0.33);
+            padding: 2px 30px;
+            margin-bottom: 20px;
+        }
+        [type=submit]{
+            width: 100%;
+            border-radius: 3px;
+        }
+    }
+}

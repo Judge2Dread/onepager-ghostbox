@@ -1,0 +1,44 @@
+/*------------------------------------
+22. Instruction
+------------------------------------*/
+.instruction-tabs{
+    margin-top: 60px;
+    .nav-tabs{
+        border: none;
+        margin-bottom: 0;
+        li{
+            margin: 0;
+            a{
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 3px;
+                margin: 0;
+                display: block;
+                font-size: 2.2rem;
+                font-family: $headingFont;
+                font-weight: 500;
+                line-height: 3rem;
+                color: $baseFontColor;
+                padding: 17px 27px;
+                &:focus, &:hover{
+                    background-color: transparent;
+                }
+                span{
+                    margin-right: 12px;
+                    transition: all 0.3s ease;
+                }
+            }
+            &.active{
+                a{
+                    color: #ffffff;
+                    span{
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    .tab-content{
+        margin-top: 35px;
+    }
+}

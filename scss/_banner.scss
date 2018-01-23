@@ -1,0 +1,735 @@
+/*------------------------------------
+4. Banner
+------------------------------------*/
+
+.cps-banner-item-1 {
+    background-image: url(../images/banner/1.jpg);
+}
+
+.cps-banner-item-2 {
+    background-image: url(../images/banner/2.jpg);
+}
+
+.cps-banner-item-3 {
+    background-image: url(../images/banner/3.jpg);
+}
+
+.cps-banner-item-4 {
+    background-image: url(../images/banner/4.jpg);
+}
+
+.cps-banner-item-8 {
+    background-image: url(../images/banner/8.jpg);
+}
+
+.cps-banner-item-9 {
+    background-image: url(../images/banner/9.jpg);
+}
+
+.cps-banner-item-10 {
+    background-image: url(../images/banner/10.jpg);
+}
+
+.cps-banner-item-13 {
+    background-image: url(../images/banner/11.jpg);
+    .cps-banner-content {
+        z-index: 2;
+    }
+    .cps-banner-image {
+        top: 50%;
+        right: 0;
+        left: 0;
+        transform: translateY(-50%);
+        margin-top: 50px;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+.cps-banner {
+    .cps-banner-item {
+        height: 768px;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        overflow: hidden;
+    }
+    .cps-banner-item-14 {
+        background-position: right 150px center;
+        background-repeat: no-repeat;
+    }
+    .cps-banner-content {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+        margin-top: 32px;
+    }
+    .cps-banner-title {
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+        margin: 0;
+    }
+    .cps-button-group {
+        margin-top: 37px;
+        .btn {
+            padding: 0 45px;
+            &.btn-simple {
+                padding: 0 10px;
+            }
+        }
+    }
+    .cps-cta-download {
+        margin-top: 30px;
+        a {
+            +a {
+                margin-left: 26px;
+            }
+        }
+    }
+}
+
+
+/*** Banner Style 2 ***/
+
+.cps-banner.style-2 {
+    .cps-banner-title {
+        color: #ffffff;
+    }
+    .cps-banner-text {
+        font-size: 1.8rem;
+        font-family: $headingFont;
+        color: #ffffff;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+}
+
+
+/*** Banner Style 3 ***/
+
+.cps-banner.style-3 {
+    .cps-banner-content {
+        z-index: 2;
+    }
+    .cps-banner-title {
+        color: #ffffff;
+    }
+    .cps-banner-text {
+        font-size: 1.8rem;
+        font-family: $headingFont;
+        color: #ffffff;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .cps-banner-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+
+/*** Banner Style 4 ***/
+
+.cps-banner.style-4 {
+    .cps-banner-item {
+        overflow: hidden;
+        .cps-banner-content {
+            position: static;
+            transform: translateY(0);
+            margin-top: 0;
+            color: #ffffff;
+            margin-top: 148px;
+        }
+    }
+    .cps-banner-form {
+        width: 100%;
+        max-width: 470px;
+        margin: 37px auto 0;
+        border: 1px solid #ffffff;
+        border-radius: 22px;
+        overflow: hidden;
+         ::-webkit-input-placeholder {
+            color: #ffffff;
+            opacity: 0.44;
+        }
+         ::-moz-placeholder {
+            color: #ffffff;
+            opacity: 0.44;
+        }
+         :-ms-input-placeholder {
+            color: #ffffff;
+            opacity: 0.44;
+        }
+         :-moz-placeholder {
+            color: #ffffff;
+            opacity: 0.44;
+        }
+        input:not([type=submit]) {
+            background-color: transparent;
+            border: none;
+            line-height: 43px;
+            width: calc(100% - 120px);
+            display: inline-block;
+            float: left;
+            margin-bottom: 0;
+        }
+        [type=submit] {
+            border: none;
+            background-color: #ffffff;
+            color: $baseFontColor;
+            width: 120px;
+            float: left;
+            line-height: 43px;
+            font-family: $headingFont;
+            transition: all 0.3s ease;
+        }
+    }
+    .cps-banner-image {
+        position: static;
+        text-align: center;
+        margin-top: 100px;
+        img {
+            display: inline-block;
+        }
+    }
+}
+
+
+/*** Banner Style 5 ***/
+
+.cps-banner.style-5 {
+    .cps-banner-item {
+        height: auto;
+        .overlay {
+            background-color: rgba(#262626, 0.6);
+            height: 768px;
+            position: relative;
+            color: #ffffff;
+        }
+    }
+    .cps-banner-text {
+        font-size: 1.8rem;
+        font-family: $headingFont;
+        margin-top: 20px;
+    }
+    .sign-in-text {
+        font-family: $headingFont;
+        margin-bottom: 0;
+        margin-top: 10px;
+        a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+/*** Banner Style 6 ***/
+
+.cps-banner.style-6 {
+    color: #ffffff;
+    .cps-banner-content {
+        z-index: 2;
+    }
+    .cps-banner-image {
+        bottom: 0;
+        right: 75px;
+        z-index: 1;
+        position: absolute;
+    }
+}
+
+
+/*** Banner Style 7 ***/
+
+.cps-banner.style-7 {
+    background-color: #ffffff;
+    color: $baseFontColor;
+    .cps-banner-content {
+        z-index: 2;
+    }
+    .cps-banner-text {
+        font-family: $headingFont;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .cps-banner-form {
+        max-width: 370px;
+        margin-top: 20px;
+        [type=email] {
+            border-radius: 3px;
+            line-height: 39px;
+        }
+        [type=submit] {
+            border: none;
+            display: inline-block;
+            font-family: $headingFont;
+            color: #ffffff;
+            line-height: 41px;
+            width: 154px;
+            text-align: center;
+            padding: 0 20px;
+            border-radius: 3px;
+            vertical-align: middle;
+        }
+        .sign-in-text {
+            margin-bottom: 0;
+            vertical-align: middle;
+            display: inline-block;
+            margin-left: 20px;
+            font-family: $headingFont;
+            a {
+                text-decoration: underline;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .cps-banner-image {
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin-top: 32px;
+        transform: translateY(-50%);
+    }
+}
+
+
+/*** Banner Style 8 ***/
+
+.cps-banner.style-8 {
+    background-color: $purple;
+    color: #ffffff;
+    .cps-banner-content {
+        z-index: 2;
+    }
+    .cps-banner-title {
+        font-weight: 900;
+    }
+    .cps-banner-text {
+        font-size: 1.8rem;
+        font-family: $headingFont;
+        margin-top: 20px;
+    }
+    .cps-button-group {
+        .version-info {
+            margin-bottom: 0;
+            font-size: 1.2rem;
+            font-family: $headingFont;
+            opacity: 0.44;
+            margin-top: 10px;
+        }
+    }
+    .cps-banner-image {
+        position: absolute;
+        margin-top: 32px;
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+
+/*** Banner Style 9 ***/
+
+.cps-banner.style-9 {
+    color: $baseFontColor;
+    .cps-banner-content {
+        z-index: 2;
+    }
+    .cps-banner-title {
+        font-size: 6.5rem;
+        font-weight: 400;
+        line-height: 7.3rem;
+    }
+    .cps-banner-text {
+        font-size: 1.8rem;
+        font-family: $headingFont;
+        margin-top: 20px;
+    }
+    .cps-banner-form {
+        margin-top: 25px;
+        [type=email] {
+            border-width: 1px;
+            border-style: solid;
+            line-height: 42px;
+            border-radius: 22px;
+            margin-right: 20px;
+            width: calc(100% - 144px);
+            float: left;
+        }
+        [type=submit] {
+            font-family: $headingFont;
+            border: none;
+            line-height: 44px;
+            border-radius: 22px;
+            color: #ffffff;
+            width: 124px;
+            text-align: center;
+            padding: 0 20px;
+            float: left;
+        }
+    }
+    .cps-banner-image {
+        margin-top: 32px;
+        transform: translateY(-50%);
+        top: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+
+/*** Banner Style 10 ***/
+
+.cps-banner.style-10 {
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-image: url(../images/bg/curve-3.svg);
+        background-position: center bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .cps-banner-content {
+        z-index: 2;
+    }
+    .cps-banner-title {
+        color: #ffffff;
+        font-weight: 400;
+    }
+    .cps-banner-text {
+        font-size: 1.8rem;
+        font-family: $headingFont;
+        color: #ffffff;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .cps-banner-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+.cps-banner-slider-2 {
+    z-index: 2;
+    .slick-slide img {
+        display: inline-block;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            button {
+                width: 10px;
+                height: 10px;
+                text-indent: -9999px;
+                border-radius: 5px;
+                border: none;
+                padding: 0;
+                transition: all 0.3s ease;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+.cps-banner-screen-wrap {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.cps-banner-screens {
+    width: 316px;
+    display: inline-block;
+    position: relative;
+    padding: 16px 18px;
+    .cps-screenmock {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 15px;
+        right: 15px;
+    }
+    .cps-banner-slider-2-screen {
+        z-index: 1;
+        border-radius: 35px;
+        overflow: hidden;
+        box-shadow: 15px 18px 32px 0px rgba(0, 0, 0, 0.1)
+    }
+}
+
+
+/*** Banner Style 11 ***/
+
+.cps-banner.style-11 {
+    .cps-banner-item {
+        color: #ffffff;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .cps-banner-text {
+            margin-top: 25px;
+        }
+        .to-down {
+            margin-top: 20px;
+        }
+    }
+}
+
+
+/*** Banner Style 12 ***/
+
+.cps-banner.style-12 {
+    .cps-banner-item {
+        height: auto;
+        .cps-banner-content {
+            position: relative;
+            padding: 185px 0 150px;
+            top: 0;
+            transform: translateY(0);
+            margin-top: 0;
+            background-image: url(../images/bg/curve-6.png);
+            background-size: cover;
+            z-index: 2;
+            background-position: bottom center;
+            .sm-play-btn {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translate(-50%, 50%);
+                margin: 0;
+            }
+        }
+    }
+    .cps-banner-title {
+        font-weight: 400;
+    }
+    .cps-banner-text {
+        font-size: 1.8rem;
+        font-weight: 400;
+        font-family: $headingFont;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .sm-play-btn {
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+    }
+    .cps-lower-header {
+        z-index: 1;
+        padding-top: 65px;
+        max-height: 460px;
+        h4 {
+            font-size: 2.2rem;
+            font-weight: normal;
+            margin: 0;
+        }
+        .lower-banner-image {
+            margin-top: 70px;
+            img {
+                box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
+
+
+/*** Banner Style 13 ***/
+
+.cps-banner.style-13 {
+    position: relative;
+    .cps-banner-content {
+        z-index: 2;
+    }
+    .cps-banner-title {
+        color: #ffffff;
+        font-weight: 400;
+    }
+    .cps-banner-text {
+        font-size: 1.8rem;
+        font-family: $headingFont;
+        color: #ffffff;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .cps-banner-form {
+        margin-top: 25px;
+        max-width: 440px;
+        ::-webkit-input-placeholder {
+            color: rgba(#ffffff, 0.55);
+        }
+         ::-moz-placeholder {
+            color: rgba(#ffffff, 0.55);
+        }
+        :-ms-input-placeholder {
+            color: rgba(#ffffff, 0.55);
+        }
+        :-moz-placeholder {
+            color: rgba(#ffffff, 0.55);
+        }
+        [type=email] {
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(255, 255, 255, 0.33);
+            line-height: 42px;
+            border-radius: 3px;
+            margin-right: 20px;
+            width: calc(100% - 144px);
+            float: left;
+        }
+        [type=submit] {
+            font-family: $headingFont;
+            border: none;
+            line-height: 44px;
+            border-radius: 3px;
+            color: #ffffff;
+            width: 124px;
+            text-align: center;
+            padding: 0 20px;
+            float: left;
+        }
+    }
+    .cps-banner-image {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        .double-mock{
+            .back-mock {
+                position: relative;
+                bottom: 75px;
+                right: 0;
+            }
+            .front-mock{
+                position: absolute;
+                left: -10px;
+                bottom: -20px;
+            }
+        }
+    }
+}
+
+/*** Banner Style 14 ***/
+
+.cps-banner.style-14 {
+    .cps-banner-item {
+        overflow: hidden;
+        height: 848px;
+        .cps-banner-content {
+            position: static;
+            transform: translateY(0);
+            margin-top: 0;
+            color: #ffffff;
+            margin-top: 180px;
+        }
+        .cps-banner-title{
+            width: 100%;
+            .typer-fixed{
+                width: 50%;
+                display: inline-block;
+                text-align: right;
+                font-weight: 300;
+                padding-right: 10px;
+            }
+            .typer{
+                font-weight: 700;
+                text-align: left;
+                width: 50%;
+                display: inline-block;
+            }
+        }
+        .cps-banner-text{
+            font-size: 1.8rem;
+        }
+    }
+    .cps-banner-form {
+        width: 100%;
+        max-width: 470px;
+        margin: 37px auto 0;
+        border: 1px solid #ffffff;
+        border-radius: 22px;
+        overflow: hidden;
+         ::-webkit-input-placeholder {
+            color: #ffffff;
+            opacity: 0.44;
+        }
+         ::-moz-placeholder {
+            color: #ffffff;
+            opacity: 0.44;
+        }
+         :-ms-input-placeholder {
+            color: #ffffff;
+            opacity: 0.44;
+        }
+         :-moz-placeholder {
+            color: #ffffff;
+            opacity: 0.44;
+        }
+        input:not([type=submit]) {
+            background-color: transparent;
+            border: none;
+            line-height: 43px;
+            width: calc(100% - 120px);
+            display: inline-block;
+            float: left;
+            margin-bottom: 0;
+        }
+        [type=submit] {
+            border: none;
+            background-color: #ffffff;
+            color: $baseFontColor;
+            width: 120px;
+            float: left;
+            line-height: 43px;
+            font-family: $headingFont;
+            transition: all 0.3s ease;
+        }
+    }
+    .cps-banner-image {
+        position: static;
+        text-align: center;
+        margin-top: 140px;
+        img {
+            display: inline-block;
+        }
+    }
+}

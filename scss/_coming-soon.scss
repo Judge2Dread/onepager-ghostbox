@@ -1,0 +1,81 @@
+/*------------------------------------
+38. Coming Soon
+------------------------------------*/
+.comingsoon-banner{
+    position: relative;
+}
+.navbar-social {
+    >li {
+        display: inline-block;
+    }
+}
+
+.countdown-comingsoon {
+    margin-top: 30px;
+    .section_count {
+        display: inline-block;
+        font-family: $headingFont;
+        +.section_count {
+            margin-left: 50px;
+        }
+        .tcount {
+            font-size: 3.6rem;
+            font-weight: 600;
+            display: block;
+            line-height: 1;
+        }
+        .text {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.cps-countdown-item {
+    .cps-banner-form {
+        width: 470px;
+        margin: 50px auto 0;
+        input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+        select,
+        textarea {
+            border: 1px solid #ffffff;
+            padding: 7px 120px 7px 30px;
+            border-radius: 25px;
+            color: #ffffff;
+            margin: 0;
+        }
+         ::-webkit-input-placeholder {
+            color: rgba(#ffffff, 0.55);
+        }
+        ::-moz-placeholder {
+            color: rgba(#ffffff, 0.55);
+        }
+        :-ms-input-placeholder {
+            color: rgba(#ffffff, 0.55);
+        }
+        :-moz-placeholder {
+            color: rgba(#ffffff, 0.55);
+        }
+        [type=submit]{
+            background-color: #ffffff;
+            border: 1px solid #ffffff;
+            width: 150px;
+            text-align: center;
+            line-height: 48px;
+            border-radius: 25px;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+}
+
+.comingsoon-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .cps-footer-lower{
+        background-color: transparent;
+    }
+}

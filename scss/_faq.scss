@@ -1,0 +1,103 @@
+/*------------------------------------
+28. FAQ
+------------------------------------*/
+
+.faqs {
+    margin-bottom: -30px;
+    zoom: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.faq {
+    margin-bottom: 30px;
+    .question {
+        font-family: $headingFont;
+        font-weight: 600;
+        margin-bottom: 5px;
+        label {
+            margin-bottom: 0;
+            margin-right: 4px;
+        }
+    }
+    .answer {
+        label {
+            margin-bottom: 0;
+            margin-right: 4px;
+        }
+    }
+}
+
+
+/*** FAQ Tabs ***/
+
+.cps-faq-accordion {
+    .panel-group {
+        margin: 0;
+        .panel.panel-default {
+            border-radius: 0;
+            border: none;
+            background-color: transparent;
+            box-shadow: none;
+            +.panel {
+                margin-top: 10px;
+            }
+            >.panel-heading {
+                padding: 0;
+                background-color: transparent;
+                border: none;
+                >.panel-title {
+                    >a {
+                        display: block;
+                        background-color: rgba(#fff, 0.1);
+                        border-radius: 3px;
+                        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+                        font-family: $headingFont;
+                        font-weight: 600;
+                        font-size: 1.4rem;
+                        color: #ffffff;
+                        padding: 15px 20px 15px 30px;
+                        &[aria-expanded=true] {
+                            &:after {
+                                content: "\f068";
+                            }
+                        }
+                        &:after {
+                            content: "\f067";
+                            font-family: "FontAwesome";
+                            float: right;
+                        }
+                    }
+                }
+                +.panel-collapse {
+                    >.panel-body {
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+    .panel-body {
+        font-family: $headingFont;
+        color: #ffffff;
+        opacity: 0.7;
+        padding: 12px 0 10px 30px;
+    }
+    &.style-2 {
+        .panel-group {
+            .panel.panel-default {
+                >.panel-heading {
+                    >.panel-title {
+                        >a {
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .panel-body {
+            color: $baseFontColor;
+            font-family: $baseFont;
+        }
+    }
+}

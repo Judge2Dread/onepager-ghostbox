@@ -1,0 +1,137 @@
+/*------------------------------------
+7. Services Box
+------------------------------------*/
+.cps-service-boxs{
+    float: left;
+    width: 100%;
+    margin-bottom: -30px;
+}
+.cps-service-box {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 60px 30px;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-image-slice: 1;
+    margin-bottom: 30px;
+    .cps-service-icon{
+        font-size: 3rem;
+        line-height: 1;
+        span{
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
+    .cps-service-title{
+        font-size: 2.2rem;
+        font-weight: 400;
+        transition: all 0.3s ease;
+        margin-top: 22px;
+        margin-bottom: 8px;
+    }
+    .cps-service-text{
+        margin: 0;
+    }
+    &:hover{
+        .cps-service-title{
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
+    &.style-2{
+        border-image: none;
+        border-color: $red;
+        padding: 40px 30px 30px;
+        .cps-service-icon{
+            font-size: 3.5rem;
+            span{
+                background: none;
+            }
+        }
+        .service-more{
+            font-family: $headingFont;
+            font-weight: 500;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        &:hover{
+            .cps-service-title{
+                background: none;
+            }
+        }
+    }
+    &.style-3{
+        padding: 40px 30px 30px;
+        .cps-service-icon{
+            font-size: 3.5rem;
+        }
+        .service-more{
+            font-family: $headingFont;
+            font-weight: 500;
+            margin-top: 15px;
+            display: inline-block;
+        }
+    }
+    &.style-4{
+        border: none;
+        padding: 40px 30px 30px;
+        .cps-service-icon{
+            font-size: 3.5rem;
+            span{
+                background: none;
+            }
+        }
+        .service-more{
+            font-family: $headingFont;
+            font-weight: 500;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        &:hover{
+            .cps-service-title{
+                background: none;
+            }
+        }
+    }
+    &.style-5{
+        border-top-width: 5px;
+        border-top-style: solid;
+        border-bottom: none;
+        padding: 40px 30px 30px;
+        .cps-service-icon{
+            font-size: 3.5rem;
+            span{
+                background: none;
+            }
+        }
+        .service-more{
+            font-family: $headingFont;
+            font-weight: 500;
+            margin-top: 15px;
+            display: inline-block;
+        }
+    }    
+    &.style-6{
+        border-image: none;
+        padding: 40px 30px 30px;
+        .cps-service-icon{
+            font-size: 3.5rem;
+            span{
+                background: none;
+            }
+        }
+        .service-more{
+            font-family: $headingFont;
+            font-weight: 500;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        &:hover{
+            .cps-service-title{
+                background: none;
+            }
+        }
+    }
+}
+

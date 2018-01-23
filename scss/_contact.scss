@@ -1,0 +1,102 @@
+/*------------------------------------
+29. Contact
+------------------------------------*/
+
+input:not([type=submit]):not([type=radio]):not([type=checkbox]),
+select,
+textarea {
+    display: block;
+    width: 100%;
+    outline: none !important;
+    color: $baseFontColor;
+    background-color: transparent;
+    line-height: 3.4rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 18px;
+    resize: none;
+    margin-bottom: 10px;
+    padding: 0 30px;
+    .cps-theme-bg &, .cps-gradient-bg & {
+        color: #ffffff;
+        border-color: rgba(#ffffff, 0.55);
+    }
+    .cps-contact-form.style-2 &{
+        border-image-slice: 1;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+textarea{
+    height: 82px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba($baseFontColor, 0.55);
+    .cps-theme-bg &, .cps-gradient-bg & {
+        color: rgba(#ffffff, 0.55);
+    }
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba($baseFontColor, 0.55);
+    .cps-theme-bg &, .cps-gradient-bg & {
+        color: rgba(#ffffff, 0.55);
+    }
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba($baseFontColor, 0.55);
+    .cps-theme-bg &, .cps-gradient-bg & {
+        color: rgba(#ffffff, 0.55);
+    }
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba($baseFontColor, 0.55);
+    .cps-theme-bg &, .cps-gradient-bg & {
+        color: rgba(#ffffff, 0.55);
+    }
+}
+.cps-contact-form{
+    [type=submit]{
+        width: 100%;
+        font-weight: 600;
+        text-align: center;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        line-height: 3.4rem;
+        border-radius: 18px;
+        transition: all 0.3s ease;
+        .cps-theme-bg &, .cps-gradient-bg & {
+            background-color: #ffffff;
+            background-image: none;
+        }
+    }
+    &.style-2{
+        [type=submit]{
+            color: #ffffff;
+        }
+    }
+}
+
+.input-success, .input-error, .newsletter-success, .newsletter-error {
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+    display: none;
+    padding: 4px 15px;
+    border-radius: 3px;
+}
+.input-success, .newsletter-success{
+    background-color: #16a085;
+}
+.input-error, .newsletter-error{
+    background-color: #e74c3c;
+}

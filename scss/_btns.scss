@@ -1,0 +1,311 @@
+/*------------------------------------
+2. Buttons
+------------------------------------*/
+
+.btn {
+    font-family: $headingFont;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #ffffff;
+    padding: 0 35px;
+    line-height: 41px;
+    border-radius: 21px;
+    border: none;
+    box-shadow: none !important;
+    transition: all 0.3s ease;
+    &:focus,
+    &:visited,
+    &:active,
+    &:active:focus {
+        color: #ffffff;
+        outline: none;
+    }
+    &:hover,
+    &:hover:focus,
+    &:hover:active,
+    &:hover:visited {
+        color: #ffffff;
+    }
+    &.btn-primary {
+        background-image: none;
+        &:focus,
+        &:visited,
+        &:active,
+        &:active:focus {
+            background-image: none;
+        }
+        &:hover,
+        &:hover:focus,
+        &:hover:active,
+        &:hover:visited {
+            background-image: none;
+            color: #262626;
+        }
+    }
+    &.btn-red {
+        background-color: $red;
+        background-image: none;
+        &:focus,
+        &:visited,
+        &:active,
+        &:active:focus {
+            background-image: none;
+            background-color: $red;
+        }
+        &:hover,
+        &:hover:focus,
+        &:hover:active,
+        &:hover:visited {
+            background-image: none;
+        }
+    }
+    &.btn-border {
+        color: #262626;
+        line-height: 39px;
+        background-image: none;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 21px;
+        &:focus,
+        &:visited,
+        &:active,
+        &:active:focus {
+            color: #262626;
+            background-image: none;
+        }
+        &:hover,
+        &:hover:focus,
+        &:hover:active,
+        &:hover:visited {
+            color: #ffffff;
+        }
+    }
+    &.btn-white {
+        background-image: none;
+        background-color: #ffffff;
+        color: $baseFontColor;
+        line-height: 39px;
+        border: 1px solid #ffffff;
+        &:focus,
+        &:visited,
+        &:active,
+        &:active:focus {
+            color: $baseFontColor;
+            background-color: #ffffff;
+            background-image: none;
+        }
+        &.btn-border {
+            background-color: transparent;
+            color: #ffffff;
+            &:focus,
+            &:visited,
+            &:active,
+            &:active:focus {
+                color: #ffffff;
+                background-color: transparent;
+            }
+            &:hover,
+            &:hover:focus,
+            &:hover:active,
+            &:hover:visited {
+                background-color: #ffffff;
+            }
+        }
+    }
+    &.btn-purple {
+        background-color: $purple2;
+        background-image: none;
+        border-radius: 3px;
+        &:focus,
+        &:visited,
+        &:active,
+        &:active:focus {
+            background-color: $purple2;
+            background-image: none;
+        }
+        &.btn-border {
+            background-color: transparent;
+            border: 1px solid $purple2;
+            color: #ffffff;
+            &:focus,
+            &:visited,
+            &:active,
+            &:active:focus {
+                color: #ffffff;
+                border: 1px solid $purple2;
+                background-color: transparent;
+            }
+            &:hover,
+            &:hover:focus,
+            &:hover:active,
+            &:hover:visited {
+                background-color: $purple2;
+            }
+        }
+    }
+    &.btn-shadow {
+        border-radius: 3px;
+        background-image: none;
+        color: $baseFontColor;
+        background-color: #ffffff;
+        box-shadow: -2.847px 6.395px 11px 0px rgba(0, 0, 0, 0.1) !important;
+        font-family: $baseFont;
+        &:focus,
+        &:visited,
+        &:active,
+        &:active:focus {
+            background-image: none;
+            background-color: #ffffff;
+            color: $baseFontColor;
+        }
+        &:hover,
+        &:hover:focus,
+        &:hover:active,
+        &:hover:visited {
+            box-shadow: none !important;
+            color: #ffffff;
+        }
+    }
+    &.btn-sm {
+        font-family: $baseFont;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 3rem;
+        padding: 0 28px;
+    }
+    &.btn-simple {
+        background-color: transparent;
+        background-image: none;
+        color: #ffffff;
+        padding: 0 10px;
+        &:focus,
+        &:visited,
+        &:active,
+        &:active:focus {
+            color: #ffffff;
+            background-color: transparent;
+            background-image: none;
+        }
+        &:hover,
+        &:hover:focus,
+        &:hover:active,
+        &:hover:active:focus,
+        &:hover:visited {
+            text-decoration: underline;
+        }
+        .fa {
+            margin-right: 8px;
+        }
+        &.btn-primary {
+            color: $baseFontColor;
+            &:focus,
+            &:visited,
+            &:active,
+            &:active:focus {
+                background-color: transparent;
+                color: $baseFontColor;
+            }
+            &:hover,
+            &:hover:focus,
+            &:hover:active,
+            &:hover:active:focus,
+            &:hover:visited {
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.button-group,
+.cps-button-group {
+    .btn {
+        +.btn {
+            margin-left: 26px;
+        }
+    }
+}
+
+
+.big-play-btn {
+    display: block;
+    margin: 60px auto 0;
+    color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    &:focus,
+    &:visited,
+    &:active {
+        color: #ffffff;
+    }
+    &:hover,
+    &:hover:focus,
+    &:hover:visited,
+    &:hover:active {
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    }
+    .cps-theme-bg &,
+    .cps-gradient-round & {
+        background-color: #ffffff;
+    }
+}
+
+.sm-play-btn {
+    display: block;
+    margin: 15px auto 0;
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    &:hover,
+    &:hover:focus,
+    &:hover:visited,
+    &:hover:active {
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    }
+    .cps-theme-bg &,
+    .cps-gradient-round & {
+        background-color: #ffffff;
+    }
+}
+
+.link-group {
+    a {
+        text-decoration: underline;
+        color: #262626;
+        font-family: $headingFont;
+        display: inline-block;
+        font-weight: 600;
+        +a {
+            margin-left: 5px;
+        }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.to-down{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    color: #ffffff;
+    &:focus, &:visited, &:active{
+        color: #ffffff;
+    }
+    &:hover{
+        background-color: #ffffff;
+        color: $baseFontColor;
+    }
+}
